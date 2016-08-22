@@ -1,0 +1,12 @@
+@import "color";
+.hero{
+    height:40em;
+    position:relative;
+    background-size:cover;
+    .text{
+        font-size:2.5em;
+        margin: 0 auto;
+        position:relative;
+        display:block;
+    }
+}
