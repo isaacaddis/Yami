@@ -64,6 +64,17 @@
 }
 @media and all (max-width:650px){
  .col{
-    //To finish
+    .s1{
+        width:16.66%;
+    }
+    .s2{
+        width:33.33%;
+    }
+    .s3{
+        width:66.66%;
+    }
+    .s4,.s5,.s6,.s7,.s8.s9,.s10,.s11,.s12{
+        width:100%;
+    }
  }
 }
