@@ -2,7 +2,7 @@
 
 A CSS framework, based on flat design, for creating elegant and simple websites.
 
-Current Version: **(BETA)**
+Current Version: **(ALPHA)**
 
 ##Contributing
 
