@@ -1,5 +1,5 @@
 .container{
-    width:100%
+    width:100%;
     max-width:1200px;
 }
 .row{
@@ -12,7 +12,7 @@
 [class*='col ']{
     float:left;
     min-height:1px;
-    width:16.66%
+    width:16.66%;
     padding:12px;
 }
 
@@ -62,7 +62,7 @@
     }
     //To finish
 }
-@media and all (max-width:650px){
+@media all and (max-width:650px){
  .col{
     .s1{
         width:16.66%;
