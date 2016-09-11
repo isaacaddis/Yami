@@ -1,33 +1,42 @@
-nav{
-  ul {
+@import "color";
+$default-color:$emerald;
+* {
+  margin: 0;
+}
+nav {
+    background-color:$default-color;
     margin: 0;
-    li {
-      transition: background-color .3s;
-      float: left;
-      padding: 0;
-      &.active {
-        background-color: rgba(0,0,0,.1);
-      }
+    padding: 0;
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        border: 1px solid #e7e7e7;
+        li {            
+            display:inline;
+            border:0;
+            padding-top:10px;
+            float:right;
+            color:white;
+            a {
+                color: white;
+                display: block;
+                padding: 0 15px;
+                cursor: pointer;
+                text-decoration:none;
+                text-align:center;
+            }
+            &.left{
+                float:left;
+            }
+
+        }
+            height:3em;
+
     }
-    a {
-      transition: background-color .3s;
-     
-      color: white;
-      display: block;
-      padding: 0 15px;
-      cursor: pointer;
-      &.btn{
-        margin-top: -2px;
-        margin-left: 15px;
-        margin-right: 15px;
-      }
-      &:hover {
-        background-color: rgba(0,0,0,.1);
-      }
-    }
-    &.left {
-      float: left;
-    }
-  }
-  background-color:red;
+}
+.logoTitle{
+  text-align:center;
+  margin:0 auto;
 }

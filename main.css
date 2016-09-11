@@ -51,41 +51,50 @@
     width: 66.66%; }
   .col .s4, .col .s5, .col .s6, .col .s7, .col .s8.s9, .col .s10, .col .s11, .col .s12 {
     width: 100%; } }
+* {
+  margin: 0; }
+
 nav {
-  background-color: red; }
+  background-color: #2ecc71;
+  margin: 0;
+  padding: 0; }
   nav ul {
-    margin: 0; }
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    height: 3em; }
     nav ul li {
-      transition: background-color .3s;
-      float: left;
-      padding: 0; }
-      nav ul li.active {
-        background-color: rgba(0, 0, 0, 0.1); }
-    nav ul a {
-      transition: background-color .3s;
-      color: white;
-      display: block;
-      padding: 0 15px;
-      cursor: pointer; }
-      nav ul a.btn {
-        margin-top: -2px;
-        margin-left: 15px;
-        margin-right: 15px; }
-      nav ul a:hover {
-        background-color: rgba(0, 0, 0, 0.1); }
-    nav ul.left {
-      float: left; }
+      display: inline;
+      border: 0;
+      padding-top: 10px;
+      float: right;
+      color: white; }
+      nav ul li a {
+        color: white;
+        display: block;
+        padding: 0 15px;
+        cursor: pointer;
+        text-decoration: none;
+        text-align: center; }
+      nav ul li.left {
+        float: left; }
+
+.logoTitle {
+  text-align: center;
+  margin: 0 auto; }
 
 html {
   font-family: Montserrat, sans-serif;
   line-height: 1.5em; }
 
 .light {
-  font-weight: 300; }
+  font-weight: 200; }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
-  line-height: 1.1; }
+  line-height: 2; }
 
 blockquote {
   margin-top: 10px;
@@ -113,6 +122,8 @@ img {
 
 .hero {
   height: 40em;
+  padding: 0;
+  margin: 0;
   position: relative;
   background-size: cover; }
   .hero .text {
@@ -120,46 +131,86 @@ img {
     margin: 0 auto;
     position: relative;
     display: block; }
+  .hero.turquoise {
+    background-color: #1abc9c; }
+  .hero.emerald {
+    background-color: #2ecc71; }
+  .hero.peterRiver {
+    background-color: #3498db; }
+  .hero.amethyst {
+    background-color: #9b59b6; }
+  .hero.wetAsphalt {
+    background-color: #34495e; }
+  .hero.greenSea {
+    background-color: #16a085; }
+  .hero.nephritis {
+    background-color: #27ae60; }
+  .hero.belizeHole {
+    background-color: #2980b9; }
+  .hero.wisteria {
+    background-color: #8e44ad; }
+  .hero.midnightBlue {
+    background-color: #8e44ad; }
+  .hero.sunFlower {
+    background-color: #f1c40f; }
+  .hero.carrot {
+    background-color: #e67e22; }
+  .hero.alizarin {
+    background-color: #e74c3c; }
+  .hero.clouds {
+    background-color: #ecf0f1; }
+  .hero.concrete {
+    background-color: #95a5a6; }
+  .hero.orange {
+    background-color: #f39c12; }
+  .hero.pumkpin {
+    background-color: #d35400; }
+  .hero.pomegrante {
+    background-color: #c0392b; }
+  .hero.silver {
+    background-color: #bdc3c7; }
+  .hero.asbestos {
+    background-color: #7f8c8d; }
 
-a .btn .turquoise-text {
+a .btn .turquoise {
   background-color: #1abc9c; }
-a .btn .emerald-text {
+a .btn .emerald {
   background-color: #2ecc71; }
-a .btn .peterRiver-text {
+a .btn .peterRiver {
   background-color: #3498db; }
-a .btn .amethyst-text {
+a .btn .amethyst {
   background-color: #9b59b6; }
-a .btn .wetAsphalt-text {
+a .btn .wetAsphalt {
   background-color: #34495e; }
-a .btn .greenSea-text {
+a .btn .greenSea {
   background-color: #16a085; }
-a .btn .nephritis-text {
+a .btn .nephritis {
   background-color: #27ae60; }
-a .btn .belizeHole-text {
+a .btn .belizeHole {
   background-color: #2980b9; }
-a .btn .wisteria-text {
+a .btn .wisteria {
   background-color: #8e44ad; }
-a .btn .midnightBlue-text {
+a .btn .midnightBlue {
   background-color: #8e44ad; }
-a .btn .sunFlower-text {
+a .btn .sunFlower {
   background-color: #f1c40f; }
-a .btn .carrot-text {
+a .btn .carrot {
   background-color: #e67e22; }
-a .btn .alizarin-text {
+a .btn .alizarin {
   background-color: #e74c3c; }
-a .btn .clouds-text {
+a .btn .clouds {
   background-color: #ecf0f1; }
-a .btn .concrete-text {
+a .btn .concrete {
   background-color: #95a5a6; }
-a .btn .orange-text {
+a .btn .orange {
   background-color: #f39c12; }
-a .btn .pumkpin-text {
+a .btn .pumkpin {
   background-color: #d35400; }
-a .btn .pomegrante-text {
+a .btn .pomegrante {
   background-color: #c0392b; }
-a .btn .silver-text {
+a .btn .silver {
   background-color: #bdc3c7; }
-a .btn .asbestos-text {
+a .btn .asbestos {
   background-color: #7f8c8d; }
 
 .card {
