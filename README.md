@@ -1,16 +1,20 @@
 #Yami
 
-A CSS framework, based on flat design, for creating elegant and simple websites.
+A CSS framework, based on "color-first design", for creating elegant and simple websites.
 
 Current Version: **(ALPHA)**
 
 ##Installation
 
-Please visit yami.github.io for more information.
+Please visit yamicss.github.io for more information.
 
 ##Contributing
 
 Please refer to CONTRIBUTING.md for information on contributing to the Yami
 framework.
 
+##Color-First Design?
+
+Color-first design is a means of using contrast and colors as a means of
+comparison.
 
