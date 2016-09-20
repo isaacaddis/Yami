@@ -111,23 +111,26 @@
 .asbestos {
   background-color: #7f8c8d; }
 
+body {
+  margin: 0; }
+
 * {
   margin: 0;
   padding: 0; }
 
 nav {
-  background-color: #2ecc71;
+  list-style-type: none;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  overflow: hidden;
+  background-color: #2ecc71; }
   nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    border: 1px solid #e7e7e7;
     height: 3em; }
     nav ul li {
-      display: inline;
       border: 0;
       padding-top: 10px;
       float: right;

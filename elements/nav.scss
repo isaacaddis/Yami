@@ -1,21 +1,23 @@
 @import "color";
 $default-color:$emerald;
-* {
-  margin: 0;
-  padding:0;
+
+body{ margin:0}
+*{
+    margin:0;
+    padding:0;
 }
 nav {
-    background-color:$default-color;
-    margin: 0;
-    padding: 0;
+      list-style-type:none;
+      margin:0;
+      padding:0;
+      overflow:hidden;
+      background-color:$default-color;
       ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
         overflow: hidden;
-        border: 1px solid #e7e7e7;
-        li {            
-            display:inline;
+        li {             
             border:0;
             padding-top:10px;
             float:right;
