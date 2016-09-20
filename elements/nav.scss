@@ -20,15 +20,15 @@ nav {
         li {             
             border:0;
             padding-top:10px;
-            float:right;
+            float:right; 
             color:white;
             a {
                 color: white;
-                display: block;
-                padding: 0 15px;
+                display:inline-block;
+                padding: 0px 15px;
                 cursor: pointer;
                 text-decoration:none;
-                text-align:center;
+                text-align:center; 
             }
             &.left{
                 float:left;
@@ -40,6 +40,6 @@ nav {
     }
 }
 .logoTitle{
-  text-align:center;
-  margin:0 auto;
+  // text-align:center;
+  // margin:0 auto;
 }

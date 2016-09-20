@@ -137,17 +137,13 @@ nav {
       color: white; }
       nav ul li a {
         color: white;
-        display: block;
-        padding: 0 15px;
+        display: inline-block;
+        padding: 0px 15px;
         cursor: pointer;
         text-decoration: none;
         text-align: center; }
       nav ul li.left {
         float: left; }
-
-.logoTitle {
-  text-align: center;
-  margin: 0 auto; }
 
 .turquoise {
   background-color: #1abc9c; }
