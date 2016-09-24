@@ -1,4 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
+* {
+  box-sizing: border-box; }
+
 .container {
   width: 100%;
   max-width: 1200px; }
@@ -51,6 +54,12 @@
     width: 66.66%; }
   .col .s4, .col .s5, .col .s6, .col .s7, .col .s8.s9, .col .s10, .col .s11, .col .s12 {
     width: 100%; } }
+.row:before,
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
 .turquoise {
   background-color: #1abc9c; }
 

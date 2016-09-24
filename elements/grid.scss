@@ -1,3 +1,6 @@
+*{
+    box-sizing:border-box;
+}
 .container{
     width:100%;
     max-width:1200px;
@@ -77,4 +80,10 @@
         width:100%;
     }
  }
+}
+.row:before,
+.row:after{
+    content: "";
+    display:table;
+    clear:both;
 }
