@@ -20,7 +20,7 @@ nav {
         li {             
             border:0;
             padding-top:10px;
-            float:right; 
+            float:left;
             color:white;
             a {
                 color: white;
@@ -33,6 +33,9 @@ nav {
             &.left{
                 float:left;
             }
+            &.right{
+                float:right;
+            }
 
         }
             height:3em;
@@ -42,4 +45,5 @@ nav {
 .logoTitle{
   // text-align:center;
   // margin:0 auto;
+  float:right;
 }

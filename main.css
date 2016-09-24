@@ -133,7 +133,7 @@ nav {
     nav ul li {
       border: 0;
       padding-top: 10px;
-      float: right;
+      float: left;
       color: white; }
       nav ul li a {
         color: white;
@@ -144,6 +144,11 @@ nav {
         text-align: center; }
       nav ul li.left {
         float: left; }
+      nav ul li.right {
+        float: right; }
+
+.logoTitle {
+  float: right; }
 
 .turquoise {
   background-color: #1abc9c; }
