@@ -18,3 +18,5 @@ framework.
 Color-first design is a means of using contrast and colors as a means of
 comparison.
 
+Designs created using color-first design emphasizing simplicity. That means less
+fancy, more elegant.
