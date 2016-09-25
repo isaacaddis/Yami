@@ -33,7 +33,7 @@
         width:33.33%;
     }
     .s5{
-        width:41.65;
+        width:41.65%;
     }
     .s6{
         width:50%;
@@ -57,31 +57,6 @@
         width:100%
     }
 }
-@media all and (max-width:800px){
-    .col{
-        .s10 , .s11 , .s12{
-            width:100%;
-        }
-    }
-    //To finish
-}
-@media all and (max-width:650px){
- .col{
-    .s1{
-        width:16.66%;
-    }
-    .s2{
-        width:33.33%;
-    }
-    .s3{
-        width:66.66%;
-    }
-    .s4,.s5,.s6,.s7,.s8.s9,.s10,.s11,.s12{
-        width:100%;
-    }
- }
-}
-.row:before,
 .row:after{
     content: "";
     display:table;

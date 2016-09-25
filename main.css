@@ -26,7 +26,7 @@
 .col .s4 {
   width: 33.33%; }
 .col .s5 {
-  width: 41.65; }
+  width: 41.65%; }
 .col .s6 {
   width: 50%; }
 .col .s7 {
@@ -42,19 +42,6 @@
 .col .s12 {
   width: 100%; }
 
-@media all and (max-width: 800px) {
-  .col .s10, .col .s11, .col .s12 {
-    width: 100%; } }
-@media all and (max-width: 650px) {
-  .col .s1 {
-    width: 16.66%; }
-  .col .s2 {
-    width: 33.33%; }
-  .col .s3 {
-    width: 66.66%; }
-  .col .s4, .col .s5, .col .s6, .col .s7, .col .s8.s9, .col .s10, .col .s11, .col .s12 {
-    width: 100%; } }
-.row:before,
 .row:after {
   content: "";
   display: table;
@@ -119,6 +106,12 @@
 
 .asbestos {
   background-color: #7f8c8d; }
+
+.black {
+  background-color: black; }
+
+.black-text {
+  color: black; }
 
 body {
   margin: 0; }
@@ -219,6 +212,12 @@ nav {
 .asbestos {
   background-color: #7f8c8d; }
 
+.black {
+  background-color: black; }
+
+.black-text {
+  color: black; }
+
 html {
   font-family: Montserrat, sans-serif;
   line-height: 1.5em; }
@@ -264,6 +263,9 @@ img {
 p {
   line-height: 3;
   color: white; }
+
+code {
+  background-color: lightGrey; }
 
 .turquoise {
   background-color: #1abc9c; }
@@ -324,6 +326,12 @@ p {
 
 .asbestos {
   background-color: #7f8c8d; }
+
+.black {
+  background-color: black; }
+
+.black-text {
+  color: black; }
 
 .hero {
   height: 40em;
@@ -437,8 +445,22 @@ p {
 .asbestos {
   background-color: #7f8c8d; }
 
-a {
-  color: white; }
+.black {
+  background-color: black; }
+
+.black-text {
+  color: black; }
+
+a .btn {
+  color: white;
+  text-transform: capitalize;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  margin: 4px 2px; }
   a .btn .turquoise {
     background-color: #1abc9c; }
   a .btn .emerald {
@@ -539,6 +561,12 @@ a {
 
 .asbestos {
   background-color: #7f8c8d; }
+
+.black {
+  background-color: black; }
+
+.black-text {
+  color: black; }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
