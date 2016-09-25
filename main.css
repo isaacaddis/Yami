@@ -265,7 +265,9 @@ p {
   color: white; }
 
 code {
-  background-color: lightGrey; }
+  background-color: greu;
+  color: black;
+  text-align: center; }
 
 .turquoise {
   background-color: #1abc9c; }
