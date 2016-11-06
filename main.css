@@ -2,50 +2,74 @@
 * {
   box-sizing: border-box; }
 
-.container {
-  width: 100%;
-  max-width: 1200px; }
-
-.row :before, .row :after {
-  content: "";
-  display: table;
-  clear: both; }
-
-[class*='col '] {
-  float: left;
-  min-height: 1px;
-  width: 16.66%;
-  padding: 12px; }
-
-.col .s1 {
-  width: 8.33%; }
-.col .s2 {
-  width: 16.66%; }
-.col .s3 {
-  width: 24.99%; }
-.col .s4 {
-  width: 33.33%; }
-.col .s5 {
-  width: 41.65%; }
-.col .s6 {
-  width: 50%; }
-.col .s7 {
-  width: 58.33%; }
-.col .s8 {
-  width: 66.66%; }
-.col .s9 {
-  width: 74.99%; }
-.col .s10 {
-  width: 83.32%; }
-.col .s11 {
-  width: 91.65%; }
-.col .s12 {
+[class*="col"] {
   width: 100%; }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both; }
+@media only screen and (min-width: 600px) {
+  .col .s1 {
+    width: 8.33%; }
+  .col .s2 {
+    width: 16.66%; }
+  .col .s3 {
+    width: 25%; }
+  .col .s4 {
+    width: 33.33%; }
+  .col .s5 {
+    width: 41.66%; }
+  .col .s6 {
+    width: 50%; }
+  .col .s7 {
+    width: 58.33%; }
+  .col .s8 {
+    width: 66.66%; }
+  .col .s9 {
+    width: 75%; }
+  .col .s10 {
+    width: 83.33%; }
+  .col .s11 {
+    width: 91.66%; }
+  .col .s12 {
+    width: 100%; } }
+@media only screen and (min-width: 768px) {
+  .col .s1 {
+    width: 8.33%; }
+  .col .s2 {
+    width: 16.66%; }
+  .col .s3 {
+    width: 25%; }
+  .col .s4 {
+    width: 33.33%; }
+  .col .s5 {
+    width: 41.66%; }
+  .col .s6 {
+    width: 50%; }
+  .col .s7 {
+    width: 58.33%; }
+  .col .s8 {
+    width: 66.66%; }
+  .col .s9 {
+    width: 75%; }
+  .col .s10 {
+    width: 83.33%; }
+  .col .s11 {
+    width: 91.66%; }
+  .col .s12 {
+    width: 100%; } }
+.row {
+  display: flex;
+  display: -webkit-flex; }
+
+img {
+  width: 100%;
+  height: auto; }
+
+.container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto; }
 
 .turquoise {
   background-color: #1abc9c; }
@@ -109,6 +133,66 @@
 
 .black {
   background-color: black; }
+
+.turquoise-text {
+  color: #1abc9c; }
+
+.emerald-text {
+  color: #2ecc71; }
+
+.peterRiver-text {
+  color: #3498db; }
+
+.amethyst-text {
+  color: #9b59b6; }
+
+.wetAsphalt-text {
+  color: #34495e; }
+
+.greenSea-text {
+  color: #16a085; }
+
+.nephritis-text {
+  color: #27ae60; }
+
+.belizeHole-text {
+  color: #2980b9; }
+
+.wisteria-text {
+  color: #8e44ad; }
+
+.midnightBlue-text {
+  color: #8e44ad; }
+
+.sunFlower-text {
+  color: #f1c40f; }
+
+.carrot-text {
+  color: #e67e22; }
+
+.alizarin-text {
+  color: #e74c3c; }
+
+.clouds-text {
+  color: #ecf0f1; }
+
+.concrete-text {
+  color: #95a5a6; }
+
+.orange-text {
+  color: #f39c12; }
+
+.pumkpin-text {
+  color: #d35400; }
+
+.pomegrante-text {
+  color: #c0392b; }
+
+.silver-text {
+  color: #bdc3c7; }
+
+.asbestos-text {
+  color: #7f8c8d; }
 
 .black-text {
   color: black; }
@@ -214,6 +298,66 @@ nav {
 
 .black {
   background-color: black; }
+
+.turquoise-text {
+  color: #1abc9c; }
+
+.emerald-text {
+  color: #2ecc71; }
+
+.peterRiver-text {
+  color: #3498db; }
+
+.amethyst-text {
+  color: #9b59b6; }
+
+.wetAsphalt-text {
+  color: #34495e; }
+
+.greenSea-text {
+  color: #16a085; }
+
+.nephritis-text {
+  color: #27ae60; }
+
+.belizeHole-text {
+  color: #2980b9; }
+
+.wisteria-text {
+  color: #8e44ad; }
+
+.midnightBlue-text {
+  color: #8e44ad; }
+
+.sunFlower-text {
+  color: #f1c40f; }
+
+.carrot-text {
+  color: #e67e22; }
+
+.alizarin-text {
+  color: #e74c3c; }
+
+.clouds-text {
+  color: #ecf0f1; }
+
+.concrete-text {
+  color: #95a5a6; }
+
+.orange-text {
+  color: #f39c12; }
+
+.pumkpin-text {
+  color: #d35400; }
+
+.pomegrante-text {
+  color: #c0392b; }
+
+.silver-text {
+  color: #bdc3c7; }
+
+.asbestos-text {
+  color: #7f8c8d; }
 
 .black-text {
   color: black; }
@@ -331,6 +475,66 @@ code {
 
 .black {
   background-color: black; }
+
+.turquoise-text {
+  color: #1abc9c; }
+
+.emerald-text {
+  color: #2ecc71; }
+
+.peterRiver-text {
+  color: #3498db; }
+
+.amethyst-text {
+  color: #9b59b6; }
+
+.wetAsphalt-text {
+  color: #34495e; }
+
+.greenSea-text {
+  color: #16a085; }
+
+.nephritis-text {
+  color: #27ae60; }
+
+.belizeHole-text {
+  color: #2980b9; }
+
+.wisteria-text {
+  color: #8e44ad; }
+
+.midnightBlue-text {
+  color: #8e44ad; }
+
+.sunFlower-text {
+  color: #f1c40f; }
+
+.carrot-text {
+  color: #e67e22; }
+
+.alizarin-text {
+  color: #e74c3c; }
+
+.clouds-text {
+  color: #ecf0f1; }
+
+.concrete-text {
+  color: #95a5a6; }
+
+.orange-text {
+  color: #f39c12; }
+
+.pumkpin-text {
+  color: #d35400; }
+
+.pomegrante-text {
+  color: #c0392b; }
+
+.silver-text {
+  color: #bdc3c7; }
+
+.asbestos-text {
+  color: #7f8c8d; }
 
 .black-text {
   color: black; }
@@ -450,6 +654,66 @@ code {
 .black {
   background-color: black; }
 
+.turquoise-text {
+  color: #1abc9c; }
+
+.emerald-text {
+  color: #2ecc71; }
+
+.peterRiver-text {
+  color: #3498db; }
+
+.amethyst-text {
+  color: #9b59b6; }
+
+.wetAsphalt-text {
+  color: #34495e; }
+
+.greenSea-text {
+  color: #16a085; }
+
+.nephritis-text {
+  color: #27ae60; }
+
+.belizeHole-text {
+  color: #2980b9; }
+
+.wisteria-text {
+  color: #8e44ad; }
+
+.midnightBlue-text {
+  color: #8e44ad; }
+
+.sunFlower-text {
+  color: #f1c40f; }
+
+.carrot-text {
+  color: #e67e22; }
+
+.alizarin-text {
+  color: #e74c3c; }
+
+.clouds-text {
+  color: #ecf0f1; }
+
+.concrete-text {
+  color: #95a5a6; }
+
+.orange-text {
+  color: #f39c12; }
+
+.pumkpin-text {
+  color: #d35400; }
+
+.pomegrante-text {
+  color: #c0392b; }
+
+.silver-text {
+  color: #bdc3c7; }
+
+.asbestos-text {
+  color: #7f8c8d; }
+
 .black-text {
   color: black; }
 
@@ -566,6 +830,66 @@ a .btn {
 
 .black {
   background-color: black; }
+
+.turquoise-text {
+  color: #1abc9c; }
+
+.emerald-text {
+  color: #2ecc71; }
+
+.peterRiver-text {
+  color: #3498db; }
+
+.amethyst-text {
+  color: #9b59b6; }
+
+.wetAsphalt-text {
+  color: #34495e; }
+
+.greenSea-text {
+  color: #16a085; }
+
+.nephritis-text {
+  color: #27ae60; }
+
+.belizeHole-text {
+  color: #2980b9; }
+
+.wisteria-text {
+  color: #8e44ad; }
+
+.midnightBlue-text {
+  color: #8e44ad; }
+
+.sunFlower-text {
+  color: #f1c40f; }
+
+.carrot-text {
+  color: #e67e22; }
+
+.alizarin-text {
+  color: #e74c3c; }
+
+.clouds-text {
+  color: #ecf0f1; }
+
+.concrete-text {
+  color: #95a5a6; }
+
+.orange-text {
+  color: #f39c12; }
+
+.pumkpin-text {
+  color: #d35400; }
+
+.pomegrante-text {
+  color: #c0392b; }
+
+.silver-text {
+  color: #bdc3c7; }
+
+.asbestos-text {
+  color: #7f8c8d; }
 
 .black-text {
   color: black; }

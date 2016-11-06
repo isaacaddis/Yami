@@ -8,18 +8,18 @@
 //For Tablets
 @media only screen and (min-width:600px){
   .col{
-    .1 {width: 8.33%;}
-    .2 {width: 16.66%;}
-    .3 {width: 25%;}
-    .4 {width: 33.33%;}
-    .5 {width: 41.66%;}
-    .6 {width: 50%;}
-    .7 {width: 58.33%;}
-    .8 {width: 66.66%;}
-    .9 {width: 75%;}
-    .10 {width: 83.33%;}
-    .11 {width: 91.66%;}
-    .12 {width: 100%;}
+    .s1 {width: 8.33%;}
+    .s2 {width: 16.66%;}
+    .s3 {width: 25%;}
+    .s4 {width: 33.33%;}
+    .s5 {width: 41.66%;}
+    .s6 {width: 50%;}
+    .s7 {width: 58.33%;}
+    .s8 {width: 66.66%;}
+    .s9 {width: 75%;}
+    .s10 {width: 83.33%;}
+    .s11 {width: 91.66%;}
+    .s12 {width: 100%;}
   }
 }
 //For Desktops
@@ -39,12 +39,19 @@
     .s12 {width: 100%;}
   }
 }
-.row::after{
-  content: "";
-  clear: both;
-  display: block;
+.row{
+  display: flex;
+  display: -webkit-flex;
 }
 img{
   width:100%;
   height:auto;
+}
+.container {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-justify-content: center;
+   justify-content: center;
+   margin-right: auto;
+   margin-left: auto;
 }
