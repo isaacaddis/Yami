@@ -4,6 +4,9 @@ A CSS framework, based on "color-first design", for creating elegant and simple 
 
 Current Version: **(ALPHA)**
 
+![Screenshot][logo]
+
+
 ##Installation
 
 Please visit yamicss.github.io for more information.
