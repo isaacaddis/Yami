@@ -9,7 +9,8 @@ Current Version: **(ALPHA)**
 
 ##Installation
 
-Please visit yamicss.github.io for more information.
+For now, please visit https://github.com/isaacaddis/Yami/blob/master/main.css to get [Download Link](https://github.com/isaacaddis/Yami/blob/master/main.css)
+
 
 ##Contributing
 
