@@ -209,13 +209,13 @@ nav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #2ecc71; }
+  background-color: #2ecc71;
+  height: 3em; }
   nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    height: 3em;
     display: flex;
     vertical-align: center;
     justify-content: center; }
@@ -223,7 +223,7 @@ nav {
       border: 0;
       padding-top: 10px;
       color: white;
-      float: right; }
+      float: center; }
       nav ul li a {
         color: white;
         display: inline-block;
@@ -236,7 +236,10 @@ nav {
       nav ul li.right {
         float: right; }
     nav ul li:hover {
-      background-color: lightGrey; }
+      background: #25a25a;
+      box-shadow: 0 4px 1px #25a25a;
+      border-bottom: 2px solid #25a25a;
+      transition: all 0.1s ease-in; }
 
 .logoTitle {
   float: left; }
@@ -692,7 +695,6 @@ code {
   margin: 20px;
   color: #fff;
   display: inline-block;
-  box-shadow: 0px 5px 0px 0px #15B358;
   background-color: #3498db;
   display: flex;
   vertical-align: center;

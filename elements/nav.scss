@@ -12,12 +12,13 @@ nav {
       padding:0;
       overflow:hidden;
       background-color:$default-color;
+      height:3em;
+
       ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
         overflow: hidden;
-        height:3em;
         display:flex;
         vertical-align: center;
         justify-content: center;
@@ -25,7 +26,7 @@ nav {
             border:0;
             padding-top:10px;
             color:white;
-            float:right;
+            float:center;
             a {
                 color: white;
                 display:inline-block;
@@ -42,7 +43,10 @@ nav {
             }
         }
         li:hover{
-          background-color:lightGrey;
+          background: darken($emerald,10%);
+          box-shadow: 0 4px 1px darken($emerald,10%);
+          border-bottom: 2px solid darken($emerald,10%);
+          transition: all 0.1s ease-in;
         }
         li:hoverchange{
         }
