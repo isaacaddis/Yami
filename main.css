@@ -409,7 +409,7 @@ p {
   color: white; }
 
 code {
-  background-color: greu;
+  background-color: grey;
   color: black;
   text-align: center; }
 
@@ -550,46 +550,6 @@ code {
     margin: 0 auto;
     position: relative;
     display: block; }
-  .hero.turquoise {
-    background-color: #1abc9c; }
-  .hero.emerald {
-    background-color: #2ecc71; }
-  .hero.peterRiver {
-    background-color: #3498db; }
-  .hero.amethyst {
-    background-color: #9b59b6; }
-  .hero.wetAsphalt {
-    background-color: #34495e; }
-  .hero.greenSea {
-    background-color: #16a085; }
-  .hero.nephritis {
-    background-color: #27ae60; }
-  .hero.belizeHole {
-    background-color: #2980b9; }
-  .hero.wisteria {
-    background-color: #8e44ad; }
-  .hero.midnightBlue {
-    background-color: #8e44ad; }
-  .hero.sunFlower {
-    background-color: #f1c40f; }
-  .hero.carrot {
-    background-color: #e67e22; }
-  .hero.alizarin {
-    background-color: #e74c3c; }
-  .hero.clouds {
-    background-color: #ecf0f1; }
-  .hero.concrete {
-    background-color: #95a5a6; }
-  .hero.orange {
-    background-color: #f39c12; }
-  .hero.pumkpin {
-    background-color: #d35400; }
-  .hero.pomegrante {
-    background-color: #c0392b; }
-  .hero.silver {
-    background-color: #bdc3c7; }
-  .hero.asbestos {
-    background-color: #7f8c8d; }
 
 .turquoise {
   background-color: #1abc9c; }
@@ -898,89 +858,9 @@ a .btn {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 40%; }
-  .card .turquoise {
-    background-color: #1abc9c; }
-  .card .emerald {
-    background-color: #2ecc71; }
-  .card .peterRiver {
-    background-color: #3498db; }
-  .card .amethyst {
-    background-color: #9b59b6; }
-  .card .wetAsphalt {
-    background-color: #34495e; }
-  .card .greenSea {
-    background-color: #16a085; }
-  .card .nephritis {
-    background-color: #27ae60; }
-  .card .belizeHole {
-    background-color: #2980b9; }
-  .card .wisteria {
-    background-color: #8e44ad; }
-  .card .midnightBlue {
-    background-color: #8e44ad; }
-  .card .sunFlower {
-    background-color: #f1c40f; }
-  .card .carrot {
-    background-color: #e67e22; }
-  .card .alizarin {
-    background-color: #e74c3c; }
-  .card .clouds {
-    background-color: #ecf0f1; }
-  .card .concrete {
-    background-color: #95a5a6; }
-  .card .orange {
-    background-color: #f39c12; }
-  .card .pumkpin {
-    background-color: #d35400; }
-  .card .pomegrante {
-    background-color: #c0392b; }
-  .card .silver {
-    background-color: #bdc3c7; }
-  .card .asbestos {
-    background-color: #7f8c8d; }
   .card :hover {
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2); }
   .card .container {
     padding: 2px 16px; }
-  .card .card-title .turquoise {
-    background-color: #1abc9c; }
-  .card .card-title .emerald {
-    background-color: #2ecc71; }
-  .card .card-title .peterRiver {
-    background-color: #3498db; }
-  .card .card-title .amethyst {
-    background-color: #9b59b6; }
-  .card .card-title .wetAsphalt {
-    background-color: #34495e; }
-  .card .card-title .greenSea {
-    background-color: #16a085; }
-  .card .card-title .nephritis {
-    background-color: #27ae60; }
-  .card .card-title .belizeHole {
-    background-color: #2980b9; }
-  .card .card-title .wisteria {
-    background-color: #8e44ad; }
-  .card .card-title .midnightBlue {
-    background-color: #8e44ad; }
-  .card .card-title .sunFlower {
-    background-color: #f1c40f; }
-  .card .card-title .carrot {
-    background-color: #e67e22; }
-  .card .card-title .alizarin {
-    background-color: #e74c3c; }
-  .card .card-title .clouds {
-    background-color: #ecf0f1; }
-  .card .card-title .concrete {
-    background-color: #95a5a6; }
-  .card .card-title .orange {
-    background-color: #f39c12; }
-  .card .card-title .pumkpin {
-    background-color: #d35400; }
-  .card .card-title .pomegrante {
-    background-color: #c0392b; }
-  .card .card-title .silver {
-    background-color: #bdc3c7; }
-  .card .card-title .asbestos {
-    background-color: #7f8c8d; }
 
 /*# sourceMappingURL=main.css.map */
