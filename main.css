@@ -543,7 +543,7 @@ code {
   color: black; }
 
 .hero {
-  height: 40em;
+  height: 100vh;
   padding: 0;
   margin: 0;
   position: relative;
@@ -553,6 +553,8 @@ code {
     margin: 0 auto;
     position: relative;
     display: block; }
+  .hero .showing {
+    height: 80vh; }
 
 .turquoise {
   background-color: #1abc9c; }

@@ -1,6 +1,6 @@
 @import "color";
 .hero{
-    height:40em;
+    height:100vh;
     padding:0;
     margin:0;
     position:relative;
@@ -10,6 +10,10 @@
         margin: 0 auto;
         position:relative;
         display:block;
+    }
+    //Shows a bit of text below
+    .showing{
+      height:80vh;
     }
       //Colors
 }
