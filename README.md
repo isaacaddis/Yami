@@ -4,7 +4,7 @@ A CSS framework, based on "color-first design", for creating elegant and simple 
 
 Current Version: **(ALPHA)**
 
-![Screenshot][https://github.com/isaacaddis/Yami/blob/master/Screenshot.png]
+![Screenshot](https://github.com/isaacaddis/Yami/blob/master/Screenshot.png)
 
 
 ##Installation
