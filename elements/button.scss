@@ -1,5 +1,5 @@
 @import "color";
-$default-color:$peterRiver;
+$btn-background:$peterRiver;
 a{
 
 }
@@ -12,8 +12,14 @@ a{
   color: #fff;
   display: inline-block;
   box-shadow: 0px 5px 0px 0px #15B358;
-  background-color:$default-color;
+  background-color:$btn-background;
   display: flex;
   vertical-align: center;
   justify-content: center;
+}
+.btn:hover{
+  background: darken($btn-background,10%);
+  box-shadow: 0 4px 1px darken($btn-background,10%);
+  border-bottom: 2px solid darken($btn-background,10%);
+  transition: all 0.1s ease-in;
 }

@@ -698,6 +698,12 @@ code {
   vertical-align: center;
   justify-content: center; }
 
+.btn:hover {
+  background: #217dbb;
+  box-shadow: 0 4px 1px #217dbb;
+  border-bottom: 2px solid #217dbb;
+  transition: all 0.1s ease-in; }
+
 .turquoise {
   background-color: #1abc9c; }
 
