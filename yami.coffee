@@ -53,3 +53,10 @@ listOfRandomColor = document.getElementsByClassName("random-color-text")
 
 for i in listOfRandomColor
 	listOfRandomColor[i].style.color = generateColor(getRandomInt(1,10))
+
+collapse  = ()->
+	x = document.getElementById("topnav")
+	if x.classname == "topnav"
+		x.classname+=" responsive"
+	else
+		x.classname = "topnav"

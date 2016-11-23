@@ -17,11 +17,14 @@ nav {
         margin: 0;
         padding: 0;
         overflow: hidden;
+        display:flex;
+        vertical-align: center;
+        justify-content: center;
         li {             
             border:0;
             padding-top:10px;
-            float:left;
             color:white;
+            float:right;
             a {
                 color: white;
                 display:inline-block;
@@ -45,5 +48,5 @@ nav {
 .logoTitle{
   // text-align:center;
   // margin:0 auto;
-  float:right;
+  float:left;
 }

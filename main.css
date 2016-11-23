@@ -215,12 +215,15 @@ nav {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    display: flex;
+    vertical-align: center;
+    justify-content: center;
     height: 3em; }
     nav ul li {
       border: 0;
       padding-top: 10px;
-      float: left;
-      color: white; }
+      color: white;
+      float: right; }
       nav ul li a {
         color: white;
         display: inline-block;
@@ -234,7 +237,7 @@ nav {
         float: right; }
 
 .logoTitle {
-  float: right; }
+  float: left; }
 
 .turquoise {
   background-color: #1abc9c; }
