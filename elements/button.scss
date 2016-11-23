@@ -1,76 +1,19 @@
 @import "color";
+$default-color:$peterRiver;
 a{
-  .btn{
-    color:white;
-    text-transform:capitalize;
-    border: none;
-    padding: 15px 32px;
-    text-align:center;
-    text-decoration:none;
-    display:inline-block;
-    cursor:pointer;
-    margin: 4px 2px;
-    //Colors
-    .turquoise{
-      background-color:$turquoise;
-    }
-    .emerald{
-      background-color:$emerald;
-    }
-    .peterRiver{
-      background-color:$peterRiver;
-    }
-    .amethyst{
-      background-color:$amethyst;
-    }
-    .wetAsphalt{
-      background-color:$wetAsphalt;
-    }
-    .greenSea{
-      background-color:$greenSea;
-    }
-    .nephritis{
-      background-color:$nephritis;
-    }
-    .belizeHole{
-      background-color:$belizeHole;
-    }
-    .wisteria{
-      background-color:$wisteria;
-    }
-    .midnightBlue{
-      background-color:$midnightBlue;
-    }
-    .sunFlower{
-      background-color:$sunFlower;
-    }
-    .carrot{
-      background-color:$carrot;
-    }
-    .alizarin{
-      background-color:$alizarin;
-    }
-    .clouds{
-      background-color:$clouds;
-    }
-    .concrete{
-      background-color:$concrete;
-    }
-    .orange{
-      background-color:$orange;
-    }
-    .pumkpin{
-      background-color:$pumkpin;
-    }
-    .pomegrante{
-      background-color:$pomegrante;
-    }
-    .silver{
-      background-color:$silver;
-    }
-    .asbestos{
-      background-color:$asbestos;
-    }
 
-  }
+}
+.btn{
+  border-radius: 5px;
+  padding: 10px 10px;
+  font-size: 16px;
+  text-decoration: none;
+  margin: 20px;
+  color: #fff;
+  display: inline-block;
+  box-shadow: 0px 5px 0px 0px #15B358;
+  background-color:$default-color;
+  display: flex;
+  vertical-align: center;
+  justify-content: center;
 }

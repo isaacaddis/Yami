@@ -682,56 +682,19 @@ code {
 .black-text {
   color: black; }
 
-a .btn {
-  color: white;
-  text-transform: capitalize;
-  border: none;
-  padding: 15px 32px;
-  text-align: center;
+.btn {
+  border-radius: 5px;
+  padding: 10px 10px;
+  font-size: 16px;
   text-decoration: none;
+  margin: 20px;
+  color: #fff;
   display: inline-block;
-  cursor: pointer;
-  margin: 4px 2px; }
-  a .btn .turquoise {
-    background-color: #1abc9c; }
-  a .btn .emerald {
-    background-color: #2ecc71; }
-  a .btn .peterRiver {
-    background-color: #3498db; }
-  a .btn .amethyst {
-    background-color: #9b59b6; }
-  a .btn .wetAsphalt {
-    background-color: #34495e; }
-  a .btn .greenSea {
-    background-color: #16a085; }
-  a .btn .nephritis {
-    background-color: #27ae60; }
-  a .btn .belizeHole {
-    background-color: #2980b9; }
-  a .btn .wisteria {
-    background-color: #8e44ad; }
-  a .btn .midnightBlue {
-    background-color: #8e44ad; }
-  a .btn .sunFlower {
-    background-color: #f1c40f; }
-  a .btn .carrot {
-    background-color: #e67e22; }
-  a .btn .alizarin {
-    background-color: #e74c3c; }
-  a .btn .clouds {
-    background-color: #ecf0f1; }
-  a .btn .concrete {
-    background-color: #95a5a6; }
-  a .btn .orange {
-    background-color: #f39c12; }
-  a .btn .pumkpin {
-    background-color: #d35400; }
-  a .btn .pomegrante {
-    background-color: #c0392b; }
-  a .btn .silver {
-    background-color: #bdc3c7; }
-  a .btn .asbestos {
-    background-color: #7f8c8d; }
+  box-shadow: 0px 5px 0px 0px #15B358;
+  background-color: #3498db;
+  display: flex;
+  vertical-align: center;
+  justify-content: center; }
 
 .turquoise {
   background-color: #1abc9c; }
