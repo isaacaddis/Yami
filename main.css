@@ -215,10 +215,10 @@ nav {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    height: 3em;
     display: flex;
     vertical-align: center;
-    justify-content: center;
-    height: 3em; }
+    justify-content: center; }
     nav ul li {
       border: 0;
       padding-top: 10px;
@@ -235,6 +235,8 @@ nav {
         float: left; }
       nav ul li.right {
         float: right; }
+    nav ul li:hover {
+      background-color: lightGrey; }
 
 .logoTitle {
   float: left; }

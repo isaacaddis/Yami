@@ -17,6 +17,7 @@ nav {
         margin: 0;
         padding: 0;
         overflow: hidden;
+        height:3em;
         display:flex;
         vertical-align: center;
         justify-content: center;
@@ -39,9 +40,10 @@ nav {
             &.right{
                 float:right;
             }
-
         }
-            height:3em;
+        li:hover{
+          background-color:lightGrey;
+        }
 
     }
 }
