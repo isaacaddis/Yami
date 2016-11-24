@@ -9,7 +9,8 @@ Current Version: **(ALPHA)**
 
 ##Installation
 
-For now, please visit https://github.com/isaacaddis/Yami/blob/master/main.css to get [Download Link](https://github.com/isaacaddis/Yami/blob/master/main.css)
+For now, please visit https://github.com/isaacaddis/Yami/blob/master/main.css to get [the main CSS file](https://github.com/isaacaddis/Yami/blob/master/main.css).
+
 
 
 ##Contributing
